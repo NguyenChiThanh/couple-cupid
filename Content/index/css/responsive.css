@@ -1,0 +1,645 @@
+/* lg */
+@media (min-width:1400px) {
+  .social-icons {
+    font-size: 21px;
+    padding-right: 30px;
+  }
+
+}
+
+/* md */
+@media (min-width:992px) and (max-width:1399px) {
+  .main-text h1 {
+    font-size: 2.6em;
+  }
+
+  .main-text p {
+    font-size: 1.1em;
+  }
+
+  .btn-min-block {
+    min-width: 130px;
+    line-height: 25px;
+  }
+
+  .btn-clear {
+    margin-right: 15px;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  #loginModal, #signupModal {
+    margin-top: 0;
+  }
+
+  .signup-page, .login-page {
+    padding: 15px;
+  }
+
+  .signup-page label, .signup-page button,
+  .login-page label, .login-page button {
+    font-size: 16px;
+  }
+
+  .input-group input {
+    font-size: 16px;
+    height: 35px;
+  }
+
+  .modal-body {
+    padding-top: 0;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  .navbar-brand {
+    height: 50px;
+    width: 220px;
+  }
+
+  .navbar-right {
+    padding: 0 15px 0 0;
+  }
+
+  .navbar-right li a {
+    padding: 15px 15px;
+    font-size: 1.1em;
+  }
+
+  .fixed-menu {
+    height: 50px;
+  }
+
+  .fixed-menu .container {
+    width: 100%;
+  }
+
+  .fixed-menu .navbar-right {
+    padding-right: 40px;
+  }
+
+  .fixed-menu .navbar-right li a {
+    padding: 15px;
+    font-size: 13px;
+  }
+
+  .fixed-menu .navbar-brand {
+    height: 50px;
+  }
+
+  .fixed-menu .navbar-brand img {
+    height: 50px;
+  }
+
+  #countdown li {
+    margin-right: 30px;
+  }
+
+  #search h4 {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  #search p, 
+  #search p input,
+  #search .checkbox label,
+  #search .btn-success {
+    font-size: 13px;
+  }
+
+  .btn-pref .btn {
+    font-size: 17px;
+  }
+
+  .single-highlight h4 {
+    font-size: 17px;
+  }
+
+  .single-highlight h5 {
+    font-size: 15px;
+  }
+
+  .about-content {
+    padding: 50px 40px 80px;
+  }
+
+  #about .btn-danger {
+    margin-top: 10px;
+    font-size: 16 px;
+  }
+
+  #contact-section input {
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 30px !important;
+  }
+
+  #contact-section textarea {
+    height: 180px;
+    margin-bottom: 20px;
+    resize: none;
+    border-radius: 20px !important;
+  }
+
+  section#contact .media-heading {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  section#contact .media i.fa {
+    padding: 5px;
+    font-size: 28px;
+    width: 1.5em;
+  }
+
+  section#contact button {
+    font-size: 16px;
+    padding: 10px 15px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .social-icons {
+    font-size: 16px;
+    padding-right: 100px;
+  }
+
+  #footer {
+    font-size: 16px;
+    padding: 15px 100px;
+  }
+
+}
+
+/* sm */
+@media (min-width:768px) and (max-width:991px) {
+  .main-text h1 {
+    font-size: 2.3em;
+  }
+
+  .main-text p {
+    font-size: 0.8em;
+  }
+
+  .btn-min-block {
+    min-width: 110px;
+    line-height: 26px;
+  }
+
+  .btn-clear {
+    margin-right: 15px;
+    font-size: 1em;
+    padding: 2px;
+  }
+  #loginModal, #signupModal {
+    margin-top: 0;
+  }
+  .signup-page, .login-page {
+    padding: 10px;
+  }
+  .signup-page label, .signup-page button,
+  .login-page label, .login-page button {
+    font-size: 12px;
+  }
+  .signup-page .input-group {
+    margin-bottom: 5px;
+  }
+  .input-group input {
+    font-size: 13px;
+    height: 30px;
+  }
+  .modal-body {
+    padding-top: 0;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  .navbar-right li a {
+    padding: 15px 15px;
+    font-size: 1.1em;
+  }
+
+  .navbar-brand {
+    width: 150px;
+    height: 35px;
+  }
+
+  .navbar-brand img {
+    top: -20px;
+  }
+
+  .navbar-right {
+    padding: 0;
+  }
+
+  .navbar-right li a {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+  .fixed-menu {
+    height: 40px;
+  }
+
+  .fixed-menu .container {
+    width: 100%;
+  }
+
+  .fixed-menu .navbar-right {
+    padding-right: 10px;
+  }
+
+  .fixed-menu .navbar-right li a {
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .fixed-menu .navbar-brand {
+    height: 40px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    width: 125px;
+  }
+
+  .fixed-menu .navbar-brand img {
+    height: 40px;
+    top: 0;
+  }
+
+  #main-slider .carousel-caption {
+    bottom: 17%;
+    padding: 10px;
+    line-height: 0;
+  }
+
+  #main-slider .carousel-caption a {
+    font-size: 0.8em;
+    color: #FFFDC8;
+  }
+
+  #search h4 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  #search h5 {
+    font-size: 11px;
+  }
+
+  #search p, 
+  #search p input,
+  #search .checkbox label,
+  #search .btn-success {
+    font-size: 10px;
+  }
+
+  .btn-pref .btn {
+    font-size: 13px;
+  }
+
+  #comming-soon #content {
+    padding: 40px 0 100px;
+  }
+
+  #countdown li {
+    margin-right: 10px;
+  }
+
+  #countdown li span {
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    width: 65px;
+    top:10px;
+  }
+  .single-highlight h4 {
+    font-size: 15px;
+  }
+
+  .single-highlight h5 {
+    font-size: 13px;
+  }
+  .about-content {
+    padding: 20px 40px 40px;
+  }
+
+  #about .btn-danger {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  #contact .container {
+    padding-top: 20px;
+  }
+
+  #contact-section input {
+    height: 5px;
+    margin-bottom: 10px;
+    font-size: 0.8em !important;
+    padding: 15px;
+  }
+
+  #contact-section textarea {
+    height: 120px;
+    margin-bottom: 10px;
+    font-size: 0.8em !important;
+    padding: 15px;
+  }
+
+  section#contact .media-heading {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  section#contact .media i.fa {
+    padding: 4px;
+    border: 1px solid;
+    font-size: 18px;
+    width: 1.7em;
+  }
+
+  section#contact button {
+    font-size: 12px;
+    padding: 5px 10px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .social-icons {
+    font-size: 12px;
+    padding-right: 30px;
+  }
+
+  #footer {
+    font-size: 12px;
+    padding: 10px 0px 5px 0px;
+    padding-left: 30px;
+  }
+
+}
+
+/* xs */
+@media (max-width:767px) {
+  .main-text h1 {
+    font-size: 1.5em;
+  }
+
+  .btn-min-block {
+    min-width: 70px;
+    line-height: 12px;
+  }
+
+  .btn-clear {
+    margin-right: 15px;
+    font-size: 8px;
+    padding: 1.5px;
+  }
+
+  #loginModal, #signupModal {
+    margin-top: 0;
+  }
+  .signup-page, .login-page {
+    padding: 10px;
+  }
+  .signup-page label, .login-page label {
+    font-size: 8px;
+  }
+  .login-page button, .signup-page button {
+    font-size: 8px;
+    padding: 4px;
+  }
+  .login-page h2, 
+  .signup-page h2 {
+    margin-bottom: -10px;
+  }
+  .login-page .input-group, 
+  .signup-page .input-group {
+    margin-bottom: 2px;
+  }
+  .input-group input{
+    font-size: 8px;
+    height: 25px;
+  }
+  .input-group span {
+    font-size: 10px;
+  }
+  
+  .modal-content {
+  width: 350px;
+  margin-left: 120px;
+}
+  .modal-body {
+    padding-top: 0;
+  }
+
+  h2 {
+    font-size: 1.0em;
+  }
+  .navbar-header {
+    margin-bottom: -0px;
+  }
+  .navbar-toggle {
+    margin-top: 3px;
+    padding: 3px;
+  }
+
+  .navbar-right {
+    padding: 0px;
+    text-align: center;
+  }
+  .navbar-right li a {
+    padding: 3px !important;
+    font-size: 7px !important;
+  }
+
+  .navbar-header {
+    padding-bottom: -10px !important;
+  }
+
+  .flag {
+    margin: 0px auto !important;
+    padding: 0px !important;
+
+  }
+
+  .fixed-menu {
+    height: 42px;
+  }
+
+  .fixed-menu .container {
+    width: 100%;
+  }
+
+  .fixed-menu .navbar-right {
+    padding-right: 0px;
+  }
+
+  .fixed-menu .navbar-right li a {
+    padding: 10px;
+    font-size: 7px !important;
+  }
+
+  .fixed-menu .navbar-brand {
+    height: 30px;
+    width: 125px;
+  }
+
+  .fixed-menu .navbar-brand img {
+    height: 30px;
+  }
+
+  #main-slider .carousel-caption {
+    bottom: 17%;
+    padding: 10px;
+    line-height: 0;
+  }
+
+  #main-slider .carousel-caption a {
+    font-size: 9px;
+    color: #FFFDC8;
+    padding: 0px !important;
+  }
+
+  #home .carousel-control {
+    background: none;
+  }
+
+  #home .carousel-control.left,
+  #home .carousel-control.icon-prev {
+    left: 0px; 
+  }
+
+  #home .carousel-control.right,
+  #home .carousel-control.icon-next {
+    right: 0px;
+  }
+
+  #comming-soon #content {
+    padding: 20px 0px 30px 0px;
+  }
+
+  #countdown li {
+    margin-right: 10px;
+  }
+
+  #countdown li span {
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    top:10px;
+  }
+
+  #countdown li p {
+    font-size: 12px;
+  }
+
+  #search h4 {
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+
+  #search p, 
+  #search p input,
+  #search .checkbox label,
+  #search .btn-success {
+    font-size: 8px;
+  }
+
+  #highlight h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .single-highlight h4 {
+    font-size: 12px;
+  }
+
+  .single-highlight h5 {
+    font-size: 10px;
+  }
+  #highlight .carousel-control {
+    background: none;
+  }
+
+  #highlight .carousel-control.left,
+  #highlight .carousel-control.icon-prev {
+    left: 0px;
+    font-size: 15px !important; 
+    color: #B84746;   
+  }
+
+  #highlight .carousel-control.right,
+  #highlight .carousel-control.icon-next {
+    right: 0px;
+    font-size: 15px !important;
+    color: #B84746;  
+  }
+
+  .about-content {
+    padding: 10px 30px 30px;
+  }
+
+  .about-content p {
+    font-size: 11px;
+  }
+
+  #about .btn-danger {
+    margin-top: 5px;
+    font-size: 9px;
+  }
+
+  #contact .container {
+    padding-top: 10px;
+  }
+
+  #contact-section input {
+    height: 5px;
+    margin-bottom: 5px;
+    font-size: 9px !important;
+    padding: 10px;
+  }
+
+  #contact-section textarea {
+    height: 100px;
+    margin-bottom: 5px;
+    font-size: 9px !important;
+    padding: 10px;
+  }
+
+  section#contact .section-heading {
+    margin-bottom: 0px;
+  }
+
+  section#contact .media-heading {
+    font-size: 9px;
+    padding: 5px;
+  }
+
+  section#contact .media i.fa {
+    padding: 2px;
+    border: 1px solid;
+    font-size: 12px;
+    width: 1.5em;
+  }
+
+  section#contact button {
+    font-size: 9px;
+    padding: 5px 10px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .social-icons {
+    font-size: 8px;
+    padding-right: 30px;
+  }
+
+  #footer {
+    font-size: 8px;
+    padding: 10px 0px 5px 0px;
+    padding-left: 30px;
+  }
+
+}

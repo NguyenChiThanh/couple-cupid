@@ -1,0 +1,97 @@
+a:focus {
+	outline: none;
+}
+.nav.nav-tabs li {
+	width: 19.75%;
+	text-align: center;
+	padding-top: 10px;
+	border-right: 0.5px solid #cecece;
+	margin-left: -2px;
+	color: #67809f;
+	/*background-color: transparent;*/
+
+	-o-transition:color .5s ease-out, background 1s ease-in;
+	-ms-transition:color .5s ease-out, background 1s ease-in;
+	-moz-transition:color .5s ease-out, background 1s ease-in;
+	-webkit-transition:color .5s ease-out, background 1s ease-in;
+	/* ...and now override with proper CSS property */
+	transition:color .5s ease-out, background 1s ease-in;
+}
+.nav.nav-tabs li a {
+	color: #67809f;
+}
+/*.nav.nav-tabs li:nth-child(1), .nav.nav-tabs li:nth-child(1) a,.nav.nav-tabs li:nth-child(1) span { color: rgb(34, 194, 34); }
+.nav.nav-tabs li:nth-child(2), .nav.nav-tabs li:nth-child(2) a,.nav.nav-tabs li:nth-child(2) span { color: #febe29; }
+.nav.nav-tabs li:nth-child(3), .nav.nav-tabs li:nth-child(3) a,.nav.nav-tabs li:nth-child(3) span { color: #3e5e9a; }
+.nav.nav-tabs li:nth-child(4), .nav.nav-tabs li:nth-child(4) a,.nav.nav-tabs li:nth-child(4) span { color: #f1685e; }
+.nav.nav-tabs li:nth-child(5), .nav.nav-tabs li:nth-child(5) a,.nav.nav-tabs li:nth-child(5) span { color: #67809f; }*/
+.nav.nav-tabs li:hover {
+	background-color: #45b6af;
+	color: #fff;
+}
+.nav.nav-tabs li:hover span, .nav.nav-tabs li:hover a {
+	color: #fff;
+}
+.nav.nav-tabs li:last-child {
+	border-right: none;
+}
+.nav.nav-tabs li.active, .nav.nav-tabs li.active span {
+	background-color: #45b6af;
+	color: #fff;
+}
+.nav.nav-tabs li.active a {
+	color: #fff;
+	font-weight: bold;
+	background-color: transparent;
+	outline: none;
+}
+.search-advanced .tabbable-line{
+	width: 95%;
+	margin: 0 auto;
+	height: auto;
+	min-height: 500px;
+	padding-top: 20px;
+}
+.nav.nav-tabs li.advanced-search-tab .back-ground {
+	width: 100%;
+	height: 0px;
+	background-color: #ED8029;
+	z-index: 999;
+	-webkit-transition: 2s ease;
+	-moz-transition: 2s ease;
+	-o-transition: 2s ease;
+	-ms-transition: 2s ease;
+	transition: 2s ease;
+}
+.portlet.box.blue.collapse.cc-advanced-search.in {
+	border-top: 1px solid #7cacfa;
+}
+.nav-tabs > li a {
+	margin: 10px;
+	height: auto;
+	width: auto;
+	background-color: transparent;
+}
+li.active:before {
+	border-bottom-color: transparent;
+}
+li.active:after {
+	border-bottom-color: #f3565d;
+}
+.tab-content {
+	min-height: 620px;
+}
+#tab_15_1 > div > form > div > div:nth-child(2) > div {
+	display: inline;
+	float: left;
+}
+#slider-range-age-from, #slider-range-age-to { margin: 7px 5px 7px 5px; width: 20px; float: left;}
+#slider-range{width: 81%; float: left;}
+
+/*DROPDOWN*/
+
+@media (max-width: 585px) {
+	.nav-tabs > li a {
+		min-height: 40px;
+	    line-height: 20px;
+}
